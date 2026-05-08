@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#111;
+  color:white;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 10%;
+  background:#000;
+}
+
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+}
+
+.hero{
+  height:60vh;
+  background:url('images/bg.jpg') center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.content h2{
+  font-size:60px;
+}
+
+.content p{
+  margin:20px 0;
+}
+
+button{
+  padding:12px 30px;
+  border:none;
+  background:orange;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.foods{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:40px 10%;
+  flex-wrap:wrap;
+}
+.card{
+  background:darkslategray;
+  padding:20px;
+  border-radius:10px;
+  transition:0.3s;
+  text-align:center;
+  width:280px;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card img{
+  width:250px;
+  height:200px;
+  object-fit:cover;
+  border-radius:10px;
+}
+ .reviews{
+  padding:60px 10%;
+  text-align:center;
+}
+
+.reviews h2{
+  font-size:40px;
+  margin-bottom:40px;
+}
+
+.review-container{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.review-card{
+  background:#222;
+  padding:30px;
+  width:350px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.review-card:hover{
+  transform:scale(1.05);
+}
+
+.review-card p{
+  line-height:1.8;
+  margin-bottom:20px;
+}
+
+.review-card h3{
+  color:orange;
+}
