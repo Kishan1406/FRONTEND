@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color: rgb(86, 86, 222);
+}
+
+h2{
+   color:blue
+}
+#nav{
+   background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#nav a{
+    background-color:yellow;
+    color: white;
+    text-decoration: underline;
+    margin: 15px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+#nav a:hover{
+    color: orange;
+    font-size: 22px;
+}
+
+
+#nav a:active{
+    color: red;
+}
+
+body{
+    margin: 0;
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+
+
+#skills ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#skills li{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+#projects h3{
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#projects p{
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#projects li{
+    margin-bottom: 25px;
+}
+#projects p{
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
+#contact p{
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+}
+
+#contact strong{
+    color: blue;
+}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact a:hover{
+    color: blue;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#about img{
+    width: 300px;
+    height: 300px;
+    order: 2; /*at right*/
+}
+
+#about p{
+    font-size: 18px;
+    line-height: 1.6;
+    order: 1;/* at left*/
+}
